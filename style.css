@@ -14,23 +14,26 @@ body{
 #hour,#minute,#sec {
     position: absolute;
     width: 0.6%;
+   
 }
 #hour{
     background: red;
     height: 28%;
-    top: 27%;
+    top: 22%;
     left: 49.6%;
+    transform-origin: bottom;
 }
 #minute{
     background: white;
     height: 40%;
-    top: 15%;
+    top: 10%;
     left: 49.6%;
-   
+    transform-origin: bottom;
 }
 #sec{
     background: white;
-    height: 47%;
-    top: 8%;
+    height: 45%;
+    top: 5%;
     left: 49.6%;
+    transform-origin: bottom;
 }
